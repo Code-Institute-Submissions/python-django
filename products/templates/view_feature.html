@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% load static %} 
+
+{% block content %}
+<style>
+table {
+  border-collapse: collapse;
+  border: 3px solid blue;
+  background-color:white;
+  box-shadow: 5px 10px blue;
+} 
+
+th,td {
+  border: 1px solid black;
+  text-align:center;
+  padding:10px;
+}
+
+table.a {
+  table-layout: auto;
+  width: 600px;  
+}
+
+</style>
+<div class="container-fluid view-bugs-features" style="background-color:blue">
+
+<h2 style="color:white;margin-left:42%; text-shadow: 2px 2px black;">{{username}}</h2>
+
+
+  
+
+
+<h2 style="color:white; margin-left:38%;">Your website Features</h2>
+<table class="a" style="margin-left:27%">
+  <tr>
+    <th>To do</th>
+    <th>In progress</th>
+    <th>Done</th>
+  </tr>
+  <tr>
+    <td >{{feature_todo}}</td>
+    <td >{{feature_inprogress}}</td>
+    <td >{{feature_done}}</td>
+  </tr>
+  
+</table>
+
+<div>
+<br><br><br>
+</div>
+</div>
+
+
+{% endblock %}

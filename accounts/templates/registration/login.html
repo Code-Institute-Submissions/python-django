@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid"  style="background-color:white; height:600px; margin-top: 30px;">
+  <div class="signup-mobile" style="width:40%;margin-left:35%; margin-top:100px; ">
+  <h2>Login</h2>
+{% if form.errors %}
+<p>Sorry, your username and password didn't match. Please try again.</p>
+{% endif %}
+
+{% if next %}
+    {% if user.is_authenticated %}
+    <p> To proceed,
+    please login with different password or account.</p>
+    {% else %}
+    <p>Please login to see this page.</p>
+    {% endif %}
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+{% csrf_token %}
+<table>
+<tr>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+</tr>
+<tr>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+</tr>
+</table>
+<br><br>
+<input type="submit" value="login" style="color:white; background-color:blue;width:60px;">
+<input type="hidden" name="next" value="{{ next }}">
+</form>
+
+{# Assumes you setup the password_reset view in your URLconf #}
+<br><br>
+<p><a href="{% url 'password_reset' %}" style="color:red;">Lost password?</a></p>
+</div>
+</div>
+{% endblock %}

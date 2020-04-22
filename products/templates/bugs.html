@@ -1,0 +1,61 @@
+{% extends 'base.html' %} {% load static %} 
+
+{% block content %}
+<style>
+table {
+  border-collapse: collapse;
+  border: 3px solid blue;
+  background-color:white;
+  box-shadow: 5px 10px blue;
+} 
+
+th,td {
+  border: 1px solid black;
+  text-align:center;
+  padding:10px;
+}
+
+table.a {
+  table-layout: auto;
+  width: 600px;  
+}
+
+</style>
+<section class="blue-back" style="height:1200px;background: rgb(81,120,156);
+background: linear-gradient(0deg, rgba(81,120,156,0.865983893557423) 27%, rgba(96,184,200,0.835171568627451) 56%, rgba(109,165,171,0.8379726890756303) 87%); background-repeat: no-repeat; background-size:cover;background-position: 50% 50%;">
+<div style="height:30px;"></div>
+<section class="blue-back-inner">
+<h1 class="alternative-h1" style="color:white; margin-left:39%;">What are bugs?</h1>
+<p class="p-show" style="margin-left:7%; font-size:15px;">When you have a bugs(issue with your website) that needs to be fix without a certain timeframe that you require, as oppose to a deadline in the near future, this is refer to as a bug</p>
+</section>
+<br>
+<h2 class="alternative-h2"style="color:white; margin-left:45%;">Bugs</h2>
+<table class="a " style="margin-left:27%">
+  <tr>
+    <th>To do</th>
+    
+    <th>In progress</th>
+    
+    <th>Done</th>
+  </tr>
+  <tr>
+    <td>{{bug_todo}}</td>
+    <td>{{bug_inprogress}}</td>
+    <td>{{bug_done}}</td>
+  </tr>
+  
+</table>
+<br><br><br><br><br><br>
+<a href="{% url 'publicise_bug' %}" class="features-bugs" style="font-size:20px;  color:white; "><div  class="glyphicon glyphicon-info-sign"></div> Fix bugs on your website</a>
+<br><br><br>
+<a href="{% url 'publicise_features' %}" class="features-bugs" style="font-size:20px;  color:white;"><div  class="glyphicon glyphicon-wrench"></div> Need to fix a problem as soon as possible through creating a feature</a>
+<br>
+
+<br><br><br><br><br><br>
+<a href="{% url 'bug_comment' %}" class="features-bugs" style="font-size:20px;  color:white; "><div  class="glyphicon glyphicon-comment"></div> Comment on a bug on your website</a>
+<br><br><br>
+<a href="{% url 'feature_comment' %}" class="features-bugs" style="font-size:20px;  color:white;"><div  class="glyphicon glyphicon-comment"></div>Write a comment on a feature about your website</a>
+<br>
+</section>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% load static %} 
+
+{% block content %}
+<style>
+label {
+  color:white;
+}
+
+span.helptext{
+  color:white;
+}
+</style>
+
+<div class="container-fluid mobile-margin" style="background-color:blue">
+<h2 style="color:white; ">Add Bugs</h2>
+
+<br><br>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Submit</button>
+<br><br>
+</form>
+<br>
+</div>
+{% endblock %}

@@ -1,0 +1,156 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+<style>  
+.navbar-inverse {
+    background-color: rgba(7, 7, 7, 0);
+    border-color: rgba(255,255,255,0);
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color:  rgba(7, 7, 7, 0);
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(7, 7, 7, 0);
+}
+.btn-primary {
+    background: -webkit-linear-gradient(left,#0c1bae 0%,#3486fe 50%,#0c1bae 100%);
+    font-size: 20px;
+    padding: 20px 36px;
+    font-family: montserrat;
+    border-color: rgba(255,255,255,0);
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-left:10px;
+}
+
+button.btn.btn-default.seconddefbtn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+</style>  
+
+
+   
+    <title>{% block title %}Issue Tracker{% endblock %}</title>
+</head>
+
+
+ <body class="col-smalldevice-12">   
+        
+     
+
+<div class="mainbackimg col-smalldevice-12 " style="background-image: url('/static/images/women-men.jpeg')" , "background-repeat: no-repeat;"
+    "background-size: cover;">
+
+<header class="header headerheightmobile">
+
+<nav class="navbar navbar-inverse hide-big-device">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="{% url 'index' %}">Silicon Irish</a>
+    </div>
+    <div class="collapse navbar-collapse collapse-nav-mob" id="myNavbar" >
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="{% url 'aboutus' %}">Aboutus</a></li>
+        <li><a href="{% url 'team' %}">Our Team</a></li>
+        <li><a href="{% url 'mission' %}">Mission</a></li>
+        <li><a href="{% url 'features' %}">Features</a></li>
+        <li><a href="{% url 'bugs' %}">Bugs</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{% url 'signup' %}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+  <nav class="navbar navbar1 navbar-inverse hidesmalldevice absolute">
+    <div class="container-fluid absolute">
+      <div class="navbar-header ">
+      <a class="navbar-brand" href="{% url 'index' %}">Wolfpreydigital</a>
+      </div>
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="{% url 'index' %}">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="navlinks"><a href="{% url 'aboutus' %}" class="navlinks">About Us</a></li>
+          <li class="navlinks"><a href="{% url 'team' %}" class="navlinks">Our Team</a></li>
+          <li class="navlinks"><a href="{% url 'mission' %}" class="navlinks">Mission</a></li>
+        </ul>
+      
+        </li><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Features <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li class="navlinks"><a href="{% url 'features' %}" class="navlinks">Features</a></li>
+            <li class="navlinks"><a href="{% url 'pricing' %}" class="navlinks">Pricing</a></li>
+           
+        </ul>
+        </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Bugs <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li class="navlinks"><a href="{% url 'bugs' %}" class="navlinks">Bugs</a></li>
+            <li class="navlinks"><a href="{% url 'pricing' %}" class="navlinks">Pricing</a></li>
+            
+        </ul>
+      </li>
+      <!--
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Company <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li class="navlinks"><a href="#" class="navlinks">About Us</a></li>
+            <li class="navlinks"><a href="#" class="navlinks">Our Team</a></li>
+            <li class="navlinks"><a href="#" class="navlinks">Mission</a></li>
+        </ul>
+            </li>
+        </ul>
+      -->
+        <ul class="nav navbar-nav navbar-right span-signup-login">
+          <li><a href="{% url 'signup' %}"><span class="glyphicon glyphicon-user "></span> Sign Up</a></li>
+          <li><a href="{%  url 'login' %}"><span class="glyphicon glyphicon-log-in "></span> Login</a></li>
+        </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+    
+{% block content %}
+        
+{% endblock %}
+
+
+   
+       
+</body>
+</html>
