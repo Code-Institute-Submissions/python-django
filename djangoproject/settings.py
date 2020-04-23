@@ -27,8 +27,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'xg(k7p#ka=3h&g*27ux2ky265qk&y3#g-og*^vk+-=6l8l7l1k'
-SECRET_KEY = 'anthonydjango'
-
+#SECRET_KEY = 'anthonydjango'
+if os.path.isfile('env.py'):
+    SECRET_KEY = os.getenv('SECRET_KEY')
+else:
+    SECRET_KEY = 'whatever'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
