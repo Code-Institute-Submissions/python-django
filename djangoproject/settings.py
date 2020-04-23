@@ -33,6 +33,11 @@ if os.path.isfile('env.py'):
 else:
     SECRET_KEY = 'whatever'
 
+if os.path.isfile('env.py'):
+    DEBUG = True
+else:
+    DEBUG = False
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
