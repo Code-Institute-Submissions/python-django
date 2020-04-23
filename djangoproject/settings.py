@@ -136,21 +136,26 @@ USE_TZ = True
 
 
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 
-
-STATICFILES_LOCATION = 'static'
+##STATICFILES_LOCATION = 'static'
 
 # refers directly to STATIC_URL. So it's safest to always set it.
-STATIC_URL = '/static/'
+##STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+##STATICFILES_DIRS = [
+  ##  os.path.join(BASE_DIR, "static"),
     
-]
+##]
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+##STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 
