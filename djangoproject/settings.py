@@ -27,14 +27,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #SECRET_KEY = 'xg(k7p#ka=3h&g*27ux2ky265qk&y3#g-og*^vk+-=6l8l7l1k'
 
 if os.path.isfile('env.py'):
-    SECRET_KEY = os.getenv('SECRET_KEY')
+    SECRET_KEY = os.getenv('mysecretkeydjango')
 else:
     SECRET_KEY = 'thesecretkey'
 
-if os.path.isfile('env.py'):
-    DEBUG = True
-else:
-    DEBUG = False
+#if os.path.isfile('env.py'):
+#    DEBUG = True
+#else:
+#    DEBUG = False
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -153,8 +153,8 @@ STATICFILES_DIRS = (
 
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+#MEDIA_URL = '/media/'
 STRIPE_SECRET = os.getenv('STRIPE_SECRET')
 
 from django.urls import reverse_lazy
