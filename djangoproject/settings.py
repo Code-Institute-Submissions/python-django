@@ -23,15 +23,13 @@ else:
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-
-
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'xg(k7p#ka=3h&g*27ux2ky265qk&y3#g-og*^vk+-=6l8l7l1k'
-#SECRET_KEY = 'anthonydjango'
+
 if os.path.isfile('env.py'):
     SECRET_KEY = os.getenv('SECRET_KEY')
 else:
-    SECRET_KEY = 'whatever'
+    SECRET_KEY = 'thesecretkey'
 
 if os.path.isfile('env.py'):
     DEBUG = True
@@ -100,7 +98,7 @@ WSGI_APPLICATION = "djangoproject.wsgi.application"
 
 if "DATABASE_URL" in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.getenv('DATABASE_URL'))
+        'default': dj_database_url.parse(os.getenv('postgres://rjzkipmlcqkjma:19ac670cf0ca543ac07eee721cba098e6c85897935e0a3a9759c73ef81454ccf@ec2-54-247-169-129.eu-west-1.compute.amazonaws.com:5432/d87e8lb1pralf4'))
     }
 else:
     print("Postgres URL not found, using sqlite instead")
@@ -152,18 +150,8 @@ STATICFILES_DIRS = (
 )
 
 
-##STATICFILES_LOCATION = 'static'
-
-# refers directly to STATIC_URL. So it's safest to always set it.
-##STATIC_URL = '/static/'
-
-##STATICFILES_DIRS = [
-  ##  os.path.join(BASE_DIR, "static"),
-    
-##]
 
 
-##STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -178,3 +166,21 @@ LOGOUT_URL = 'logout'
 #LOGIN_REDIRECT_URL = '/'
 
 django_heroku.settings(locals())
+
+
+
+
+
+
+
+##STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+##STATICFILES_LOCATION = 'static'
+
+# refers directly to STATIC_URL. So it's safest to always set it.
+##STATIC_URL = '/static/'
+
+##STATICFILES_DIRS = [
+  ##  os.path.join(BASE_DIR, "static"),
+    
+##]
