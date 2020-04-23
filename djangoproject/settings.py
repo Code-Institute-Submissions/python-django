@@ -18,6 +18,17 @@ import dj_database_url
 #else:
 #    development = False
 
+from dotenv import load_dotenv
+load_dotenv()
+
+# OR, the same with increased verbosity
+load_dotenv(verbose=True)
+
+# OR, explicitly providing path to '.env'
+from pathlib import Path  # python3 only
+env_path = Path('.') / '.env'
+load_dotenv(dotenv_path=env_path)
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
