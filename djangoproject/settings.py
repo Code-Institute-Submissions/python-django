@@ -9,35 +9,24 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-import django_heroku
+
 import os
+import django_heroku
+
 import dj_database_url
 
-#if os.environ.get('DEVELOPMENT'):
-#    development = True
-#else:
-#    development = False
-
-#from dotenv import load_dotenv
-#load_dotenv()
-
-# OR, the same with increased verbosity
-#load_dotenv(verbose=True)
-
-# OR, explicitly providing path to '.env'
-#from pathlib import Path  # python3 only
-#env_path = Path('.') / '.env'
-#load_dotenv(dotenv_path=env_path)
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+if os.path.isfile('env.py'):
+    import env
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'xg(k7p#ka=3h&g*27ux2ky265qk&y3#g-og*^vk+-=6l8l7l1k'
 
-if os.path.isfile('.env'):
+
+if os.path.isfile('env.py'):
     SECRET_KEY = os.getenv('SECRET_KEY')
 else:
     SECRET_KEY = 'thesecretkey'
@@ -181,7 +170,7 @@ django_heroku.settings(locals())
 
 
 
-
+SECRET_KEY = "xg(k7p#ka=3h&g*27ux2ky265qk&y3#g-og*^vk+-=6l8l7l1k"
 
 
 ##STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
