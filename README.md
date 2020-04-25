@@ -167,6 +167,8 @@ The content be that the text or images depicting the services provided had to be
 
 • The aesthetic quality of the website will enhance the user ui and ux of the website. Therefore increasing the likelihood of a interaction via email or sales on the website.
 
+# ------COLOR SCHEME------
+
 
 
 # --------File Management-----------
