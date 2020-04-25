@@ -72,6 +72,8 @@ https://github.com/anthony-keogh/python-django/tree/master/static/images/chrome-
 
 https://github.com/anthony-keogh/python-django/tree/master/static/images/microsoft-testing
 
+After testing i was not satisfied with some of the background color in many of the pages, so i changed it so a blend of dark blue to light blue to add class and style to the website
+
 • In terms of the backend coding i really had to take a bird eye view of the structure of my code and syntax to really get a grip of how i was going to make this code execute. For that reason i took each block of code, tested it on visual studio code and if it did not execute, i would then have to understand the fundamentals better by reading more python documentation on websites like w3schools and tutorials point. I found this effective technique as i wasn’t trying to code by way out of the problems but planning and understand the core concepts better after making mistakes.
 
 # ----------Main Content--------
@@ -199,7 +201,7 @@ manage.py
 • Wireframe
 
 # --------Project Approach-------------
-• Nav Navigate through the four other pages with ease
+• Nav Navigate through all other pages with ease
 
 • Main body
 
