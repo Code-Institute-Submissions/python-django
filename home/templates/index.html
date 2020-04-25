@@ -5,6 +5,101 @@
 h1.introductionheading.col-smalldevice-12 {
     font-size: 80px;
 }
+div.col-md-1.section5col1:hover {
+        background-color:blue;
+         color:white; 
+     }
+     
+     div.col-md-1.section5col1:hover {
+       background-color:blue;
+         color:white; 
+     }
+     
+   
+     
+   div.innercolumn6:hover{
+       background-color:blue;
+    }
+    
+    
+    div.innercolumn10:hover{
+       background-color:blue;
+    }
+    
+    
+    div.innercolumn7:hover{
+       background-color:blue;
+    }
+    
+    div.innercolumn8:hover{
+        background-color:blue;
+    }
+    
+    
+    div.col-md-1.section3col3:hover {
+        color:white;
+      background-color:blue;
+        
+        
+    }
+    
+    div.col-md-1.section5col3:hover {
+        color:white;
+        background-color:blue;
+        
+        
+        
+    }
+    
+    div.col-md-1.section6col5:hover {
+        color:white;
+      background-color:blue;
+        
+        
+        
+    }
+    
+   .hover-blue{
+         background-color:blue;
+     }
+   
+   button.btn.btn-primary:hover{
+      background-color:blue;
+     color:white;
+   }
+   
+   button.btn.btn-default:hover{
+    background-color:blue;
+     color:white;
+   }
+   
+   button.btn.btn-default.seconddefbtn:hover{
+     background-color:blue;
+     color:white;
+     border-radius: 50%;
+   }
+   
+   
+   .innercol1introduction4links:hover {
+    background-color:blue;
+   }
+   
+   .innercol2introduction4links:hover {
+     background-color:blue;
+   }
+   
+   .innercol3introduction4links:hover{
+      background-color:blue;
+   }
+   
+   
+   .innercol4introduction4links:hover{
+     background-color:blue;
+   }
+   
+   
+   
+   
 </style>
 </head>
 {% block content %}
@@ -80,7 +175,7 @@ h1.introductionheading.col-smalldevice-12 {
                <div class="icons1 glyphicon glyphicon-sound-stereo">
                
                </div>
-                <h4 class"introduction4links"> <a class="linksfor1strow">Data Science </a>  </h4>
+                <h4 class"introduction4links"> <a  href="{% url 'datascience' %}" class="linksfor1strow">Data Science </a>  </h4>
                 
             </div>
          </div>
@@ -93,7 +188,9 @@ h1.introductionheading.col-smalldevice-12 {
 
 
     <div class="section2" style=" background-color:white; background-size: cover;">
-      <div class="row row2ndsection " >
+      <div class="row row2ndsection " style="background-image: url('{% static "images/bluec.png" %}');", "background-repeat: no-repeat;",
+    "background-size: cover;" 
+>
           <div class="spacing2ndsection">
           </div>
           <div class="spacingundernavbar">

@@ -104,6 +104,10 @@ def planning(request):
 def mobile(request):
     return render(request, 'mobile.html')
 
+def datascience(request):
+    return render(request, 'datascience.html')
+
+
 def it_solutions(request):
     return render(request, 'it_solutions.html')
 

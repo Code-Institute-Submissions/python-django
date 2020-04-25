@@ -22,7 +22,7 @@ from home.views import index
 from products.views import bugs, features, user_history
 from orders.urls import library, order_detail, order_list
 from django.views.generic import TemplateView
-from products.views import  bug_comment, feature_comment, publicise_bug, view_bugs, view_features, skills, planning, mobile, it_solutions, publicise_features, pricing
+from products.views import  bug_comment, feature_comment, publicise_bug, view_bugs, view_features, skills, planning, mobile, it_solutions, publicise_features, pricing, datascience
 from django.urls import path 
 from django.views.generic.base import TemplateView 
 from user.views import SignUpView 
@@ -65,6 +65,7 @@ urlpatterns = [
     path('view_feature/',view_features, name='view_features'), 
     path('skills/',skills, name='skills'),
     path('planning/',planning, name='planning'),
+    path('datascience/',datascience, name='datascience'),
     path('mobile/',mobile, name='mobile'),
     path('it_solutions/',it_solutions, name='it_solutions'),
     path('publicise_feature/',publicise_features, name='publicise_features')

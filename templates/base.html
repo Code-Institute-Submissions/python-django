@@ -17,6 +17,10 @@
     border-color: rgba(255,255,255,0);
 }
 
+div.row.row2ndsection {
+    margin-top: 30px;
+}
+
 .navbar-inverse .navbar-brand {
     color: white;
 }
@@ -55,7 +59,7 @@ button.btn.btn-default.seconddefbtn {
 
 
    
-    <title>{% block title %}Issue Tracker{% endblock %}</title>
+    <title>{% block title %}Silicon Irish{% endblock %}</title>
 </head>
 
 
@@ -68,7 +72,7 @@ button.btn.btn-default.seconddefbtn {
 
 <header class="header headerheightmobile">
 
-<nav class="navbar navbar-inverse hide-big-device">
+<nav class="navbar navbar-inverse hide-big-device" style="z-index: 9999; ">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -79,7 +83,7 @@ button.btn.btn-default.seconddefbtn {
       <a class="navbar-brand" href="{% url 'index' %}">Silicon Irish</a>
     </div>
     <div class="collapse navbar-collapse collapse-nav-mob" id="myNavbar" >
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" >
         <li class="active"><a href="{% url 'index' %}">Home</a></li>
         <li><a href="{% url 'aboutus' %}">Aboutus</a></li>
         <li><a href="{% url 'team' %}">Our Team</a></li>
@@ -96,10 +100,10 @@ button.btn.btn-default.seconddefbtn {
 </nav>
   
 
-  <nav class="navbar navbar1 navbar-inverse hidesmalldevice absolute">
+  <nav class="navbar navbar1 navbar-inverse hidesmalldevice absolute" style="margin-top:20px;">
     <div class="container-fluid absolute">
       <div class="navbar-header ">
-      <a class="navbar-brand" href="{% url 'index' %}">Wolfpreydigital</a>
+      <a class="navbar-brand" href="{% url 'index' %}">Silicon Irish</a>
       </div>
         <ul class="nav navbar-nav ">
           <li class="active"><a href="{% url 'index' %}">Home</a></li>

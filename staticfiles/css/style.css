@@ -7,8 +7,6 @@ body {
 
 
 
-
-
 @media only screen and (max-width: 599px) {
     /* For mobile: */
     .col-smalldevice-1 {width: 8.33%;}
@@ -46,6 +44,102 @@ div.glyphicon{
     color: blue;
     
 }
+
+
+
+div.col-md-1.section5col1:hover {
+    background-image: linear-gradient(90deg, #404caf 0%, #428cfa 100%);
+     color:white; 
+ }
+ 
+ div.col-md-1.section5col1:hover {
+   background-image: linear-gradient(90deg, #404caf 0%, #428cfa 100%);
+     color:white; 
+ }
+ 
+
+ 
+.innercolumn6:hover{
+   background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+}
+
+
+.innercolumn10:hover{
+    background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+}
+
+
+.innercolumn7:hover{
+    background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+}
+
+.innercolumn8:hover{
+    background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+}
+
+
+div.col-md-1.section3col3:hover {
+    color:white;
+   background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+    
+    
+    
+}
+
+div.col-md-1.section5col3:hover {
+    color:white;
+     background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+    
+    
+    
+}
+
+div.col-md-1.section6col5:hover {
+    color:white;
+  background-image: linear-gradient(90deg, #0c1bae 0%, #3486fe 100%);
+    
+    
+    
+}
+
+.hover-blue{
+     background-image: linear-gradient(90deg, #0457a5a4 0%, #486fb662 100%); 
+ }
+
+button.btn.btn-primary:hover{
+  background-image: linear-gradient(90deg, #320b9e 0%, #4c02f8 100%);
+ color:white;
+}
+
+button.btn.btn-default:hover{
+ background-image: linear-gradient(90deg, #646464bb 0%, #77777686 100%);
+ color:white;
+}
+
+button.btn.btn-default.seconddefbtn:hover{
+ background-image: linear-gradient(90deg, #212972 0%, #4476c7 100%);
+ color:white;
+ border-radius: 50%;
+}
+
+
+.innercol1introduction4links:hover {
+ background-image: linear-gradient(90deg, #210472 0%, #6f6dc7 100%);
+}
+
+.innercol2introduction4links:hover {
+ background-image: linear-gradient(90deg, #210472 0%,  #6f6dc7 100%);
+}
+
+.innercol3introduction4links:hover{
+  background-image: linear-gradient(90deg, #210472 0%,  #6f6dc7 100%);
+}
+
+
+.innercol4introduction4links:hover{
+ background-image: linear-gradient(90deg, #210472 0%,  #6f6dc7 100%);
+}
+
 
 
 
@@ -1711,7 +1805,7 @@ div.absolute-h2{
   
   div.absolute {
     position: absolute;
-    top: -110px;
+    top: -90px!important;
     
     
   }
@@ -1970,6 +2064,7 @@ h5.introductiondescription {
     }
     
     
+   
     .section7h5 {
         color: black;
         letter-spacing: -1.6px;
@@ -2292,6 +2387,7 @@ h5.introductiondescription {
         padding:10px;
         font-family: montserrat;
     }
+    
     
     
     img.womenoncompimg {
