@@ -39,6 +39,10 @@ To create and build a responsive ecommerce issue tracking website that allows us
 
 • Chrome and Firefox developer tools
 
+• Stripe
+
+• PostgresSQL
+
 • visual studio code
 
 • jquery
@@ -48,6 +52,8 @@ To create and build a responsive ecommerce issue tracking website that allows us
 • cssgradient.io
 
 • django
+
+• Whitenoise
 
 • python
 
@@ -80,13 +86,17 @@ Features
 • What are features
 
 Bugs
+
 • Types of bugs
 
 • What are bugs
 
 Pricing
+
 About us
+
 Mission
+
 Our team
 
 
@@ -175,7 +185,31 @@ scripts
 
 # ----------Project Deployment------------
 
+• VS Code
 
+Deploying it locally on VS code was very straightforward.(py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py runserver)
+
+To make migrations was similar to above code. (py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py makemigrations)  , then (py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py migrate)
+
+• Heroku
+
+When testing whether the app runs i would find it a lot easier to spot error when deploying it manually from github, as automatic deployement does not show much when you view it in the logs. It was harder than i taught to deploy the app successfully on heroku and getting good practice and experience from do it in this project, i can identify beforehand the common errors and laser focus i need to deploy another one in the future
+
+• System Variables
+
+Without proper planning in terms of system variables the app can be much harder to run and spot any errors which i encounter with leaving out a few pieces of code. Its the back bone of getting the app to deploy properly and something that i will pay more attention to it to avoid mistakes in the future.
+
+• gitignore
+
+Using gitignore was very straightforward and is used to hide key pieces of secret information by combining it with settings.py and env.py and then therefore telling gitignore to hide env.py in github.
+
+• Procfile
+
+I had issues with the procfile, i created using powershell terminal and because that there was a space in the file, which did not read the code when running on Heroku. So after testing in different terminals it worked on bash, which fix the problem.
+
+• Config Vars
+
+Working with config vars in heroku was very simple to use containg the postgresql key and value which was then inserting in my env.py file.
 
 
 # --------Credits and Acknowledgements--------
