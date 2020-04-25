@@ -64,6 +64,14 @@ To create and build a responsive ecommerce issue tracking website that allows us
 
 • Apart from doing python and javascript testing to make sure everything was above board, 40% of the testing took part in Chrome and Microsoft Explorer developer tools to test the responsiveness of the website. The reason being is that there is no point promoting and selling your service if the website in the front-end is not a high standard.
 
+------chrome testing------
+
+https://github.com/anthony-keogh/python-django/tree/master/static/images/chrome-testing
+
+--------microsoft explorer--------
+
+https://github.com/anthony-keogh/python-django/tree/master/static/images/microsoft-testing
+
 • In terms of the backend coding i really had to take a bird eye view of the structure of my code and syntax to really get a grip of how i was going to make this code execute. For that reason i took each block of code, tested it on visual studio code and if it did not execute, i would then have to understand the fundamentals better by reading more python documentation on websites like w3schools and tutorials point. I found this effective technique as i wasn’t trying to code by way out of the problems but planning and understand the core concepts better after making mistakes.
 
 # ----------Main Content--------
