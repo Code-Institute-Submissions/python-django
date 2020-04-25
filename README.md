@@ -102,6 +102,10 @@ Mission
 
 Our team
 
+# ---------Wireframe-------------
+
+https://github.com/anthony-keogh/python-django/blob/master/static/images/django-wireframe-project.png
+
 
 # ---------User Experience-----------
 
