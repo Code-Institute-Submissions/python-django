@@ -66,8 +66,10 @@ To create and build a responsive ecommerce issue tracking website that allows us
 
 • In terms of the backend coding i really had to take a bird eye view of the structure of my code and syntax to really get a grip of how i was going to make this code execute. For that reason i took each block of code, tested it on visual studio code and if it did not execute, i would then have to understand the fundamentals better by reading more python documentation on websites like w3schools and tutorials point. I found this effective technique as i wasn’t trying to code by way out of the problems but planning and understand the core concepts better after making mistakes.
 
-Main Content
+# ----------Main Content--------
+
 Home
+
 • features
 
 • Bugs
@@ -81,6 +83,7 @@ Home
 • Our team
 
 Features
+
 • Types of features
 
 • What are features
@@ -155,21 +158,23 @@ The content be that the text or images depicting the services provided had to be
 • Django project (folder)
 
 Accounts
-Billing
-Cart
+
 djangoproject
+
 static
+
 staticfiles
+
 templates
+
 user
+
 manage.py
+
 • jasmine project(folder)
 
 • Virtualenvironment(folder)
 
-Include
-Lib
-scripts
 • Readme file
 
 • Wireframe
