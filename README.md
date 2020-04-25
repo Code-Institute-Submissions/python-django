@@ -102,6 +102,13 @@ Mission
 
 Our team
 
+
+
+# -------- Schema model for database ---------------
+
+https://github.com/anthony-keogh/python-django/blob/master/static/images/django-uml-schema-4th-project.png
+
+
 # ---------Wireframe-------------
 
 https://github.com/anthony-keogh/python-django/blob/master/static/images/django-wireframe-project.png
