@@ -27,37 +27,39 @@ To create and build a responsive ecommerce issue tracking website that allows us
 
 # Technologies Used
 
-• Html5
+    • Html5
 
-• css
+    • Css
 
-• javascript
+    • Javascript
 
-• bootstrap
+    • Bootstrap
 
-• flexbox
+    • Flexbox
 
-• Chrome and Firefox developer tools
+    • Chrome and Firefox developer tools
 
-• Stripe
+    • Stripe
 
-• PostgresSQL
+    • PostgresSQL
 
-• visual studio code
+    • Visual studio code
 
-• jquery
+    • jQuery
 
-• photoshop
+    • Photoshop (Adobe)
+    
+    • Illustrator (Adobe)
 
-• cssgradient.io
+    • cssgradient.io
 
-• django
+    • Django
 
-• Whitenoise
+    • Whitenoise
 
-• python
+    • Python
 
-• MySQL
+    • MySQL
 
 
 # Testing
@@ -116,10 +118,14 @@ Our team
 
 #  Schema model for database 
 
+The database schema model straightforward to avoid being too complex. In future i will put different arrows to display the relationships.
+
 https://github.com/anthony-keogh/python-django/blob/master/static/images/django-uml-schema-4th-project.png
 
 
 # Wireframe
+
+I tried to make the wireframe as simple as possible to provide clarity, which i feel i accomplished
 
 https://github.com/anthony-keogh/python-django/blob/master/static/images/django-wireframe-project.png
 
@@ -233,7 +239,7 @@ When testing whether the app runs i would find it a lot easier to spot error whe
 
 • System Variables
 
-Without proper planning in terms of system variables the app can be much harder to run and spot any errors which i encounter with leaving out a few pieces of code. Its the back bone of getting the app to deploy properly and something that i will pay more attention to it to avoid mistakes in the future.
+Without proper planning in terms of system variables the app can be much harder to run and spot any errors which i encounter with leaving out a few pieces of code. Its the back bone of getting the app to deploy properly and something that i will pay more attention to it to avoid mistakes in the future. (secret_key, database_url, stripe_scret 
 
 • gitignore
 
