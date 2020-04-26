@@ -240,9 +240,9 @@ from dark blue to light blue
 
 • VS Code
 
-Deploying it locally on VS code was very straightforward.(py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py runserver)
+       Deploying it locally on VS code was very straightforward.(py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py runserver)
 
-To make migrations was similar to above code. (py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py makemigrations)  , then (py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py migrate)
+       To make migrations was similar to above code. (py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py makemigrations)  , then (py \Users\User\Desktop\django_project_issuetracker\djangoproject-copy\manage.py migrate)
 
 • Heroku
 
