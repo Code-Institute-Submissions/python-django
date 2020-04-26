@@ -18,7 +18,7 @@ https://django-issuetracker.herokuapp.com/
 
 # Objective
 
-To create and build a responsive ecommerce issue tracking application that allows users to create tickets, comment on tickets, and show the status of the ticket. And also add features if they need the bugs to be fix in a certain timeframe which will come at a charge depending on the scale of the project.
+To create and build a responsive ecommerce issue tracking application that allows users to create tickets, comment on tickets, and show the status of the ticket. And also add features if they need the bugs to be fix in a certain timeframe which will come at a charge depending on the scale of the project. 
 
 # Project’s Core Functionality
 
@@ -86,6 +86,12 @@ I made sure to entice users to request features on the website by using effectiv
 
     • MySQL
 
+
+
+
+# Note:
+
+I had to create a lot of high quality pages to promote my service of fixing bugs and features. For this application to work it could not be just 4-5 pages of squashing in information which would of looked cheap and not professional and would also not highlight my skill, standard and attention to detail you need to attract technology companies to hire me.
 
 # Testing
 
