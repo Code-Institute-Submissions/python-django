@@ -82,29 +82,29 @@ After testing i was not satisfied with some of the background color in many of t
 
 Home
 
-• features
+    • features
 
-• Bugs
+    • Bugs
 
-• Pricing
+    • Pricing
 
-• About us
+    • About us
 
-• Mission
+    • Mission
 
-• Our team
+    • Our team
 
 Features
 
-• Types of features
+    • Types of features
 
-• What are features
+    • What are features
 
 Bugs
 
-• Types of bugs
+    • Types of bugs
 
-• What are bugs
+    • What are bugs
 
 Pricing
 
@@ -179,51 +179,51 @@ I changed the background color scheme on most pages to this blue color below
 
 from dark blue to light blue
 
-background: rgb(111,121,254);
-background: linear-gradient(0deg, rgba(111,121,254,1) 38%, rgba(81,113,254,1) 61%, rgba(2,25,176,1) 81%);
+    • background: rgb(111,121,254);
+      background: linear-gradient(0deg, rgba(111,121,254,1) 38%, rgba(81,113,254,1) 61%, rgba(2,25,176,1) 81%);
 
 
 
 # File Management
 
 
-• Issuetrackerproject
+     • Issuetrackerproject
 
-• Root project / src (folder)
+     • Root project / src (folder)
 
-• Django project (folder)
+     • Django project (folder)
 
-Accounts
+       Accounts
 
-djangoproject
+       djangoproject-copy
 
-static
+       static
 
-staticfiles
+       staticfiles
 
-templates
+       templates
 
-user
+       user
 
-manage.py
+       manage.py
 
-• jasmine project(folder)
+      • jasmine project(folder)
 
-• Virtualenvironment(folder)
+      • Virtualenvironment(folder)
 
-• Readme file
+      • Readme file
 
-• Wireframe
+      • Wireframe
 
 # Project Approach
 
-• Nav Navigate through all other pages with ease
+      • Nav Navigate through all other pages with ease
 
-• Main body
+      • Main body
 
-• Footer
+      • Footer
 
-• contact
+      • contact
 
 # Project Deployment
 
@@ -257,20 +257,20 @@ Working with config vars in heroku was very simple to use containg the postgresq
 # Credits and Acknowledgements
 
 
-• W3schools
+    • W3schools
 
-• Quora
+    • Quora
 
-• cssgradient.io
+    • cssgradient.io
 
-• Stack overflow
+    • Stack overflow
 
-• CSS Tutorial - Tutorialspoint
+    • CSS Tutorial - Tutorialspoint
 
-• Python Tutorial - Tutorialspoint
+    • Python Tutorial - Tutorialspoint
 
-• www.csstutorial.net
+    • www.csstutorial.net
 
-• developer.mozilla.org
+    • developer.mozilla.org
 
-• django documentation
+    • django documentation
