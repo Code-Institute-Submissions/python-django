@@ -1,15 +1,15 @@
-﻿# django-issuetracker
-django-issuetracker
-python django project
+﻿# Full Stack Frameworks with Django: Django-issuetracker
 
-# -------Live Website------
+4th Milestone Project module in Full Stack Frameworks with Django for Code Institute. Its part of the Full Stack Software Development Diploma online course.
+
+# Live App
 https://django-issuetracker.herokuapp.com/
 
-# --------Objective---------
+# Objective
 
 To create and build a responsive ecommerce issue tracking website that allows users to create tickets, comment on tickets, and show the status of the ticket. And also add features if they need the bugs to be fix in a certain timeframe which will come at a charge depending on the scale of the project.
 
-# ----Project’s Core Functionality-----
+# Project’s Core Functionality
 
 • Solid Structure and architecture The whole website was built and designed around data and the user experience. To attractive users with stylish website, get them to sign up with robust backend code and the using a very well structure framework, output the members recipes and feedback to the wider audience. I have proven to show proper structure and solid architect design to achieve this.
 
@@ -25,7 +25,7 @@ To create and build a responsive ecommerce issue tracking website that allows us
 
 • Solid core features to promote I made sure to entice users to request features on the website by using effective marketing techniques to promote our main features that earn the most profits.
 
-# --------Technologies Used------------
+# Technologies Used
 
 • Html5
 
@@ -60,7 +60,7 @@ To create and build a responsive ecommerce issue tracking website that allows us
 • MySQL
 
 
-# ---------Testing----------
+# Testing
 
 • Apart from doing python and javascript testing to make sure everything was above board, 40% of the testing took part in Chrome and Microsoft Explorer developer tools to test the responsiveness of the website. The reason being is that there is no point promoting and selling your service if the website in the front-end is not a high standard.
 
@@ -76,7 +76,7 @@ After testing i was not satisfied with some of the background color in many of t
 
 • In terms of the backend coding i really had to take a bird eye view of the structure of my code and syntax to really get a grip of how i was going to make this code execute. For that reason i took each block of code, tested it on visual studio code and if it did not execute, i would then have to understand the fundamentals better by reading more python documentation on websites like w3schools and tutorials point. I found this effective technique as i wasn’t trying to code by way out of the problems but planning and understand the core concepts better after making mistakes.
 
-# ----------Main Content--------
+# Main Content
 
 Home
 
@@ -114,17 +114,17 @@ Our team
 
 
 
-# -------- Schema model for database ---------------
+#  Schema model for database 
 
 https://github.com/anthony-keogh/python-django/blob/master/static/images/django-uml-schema-4th-project.png
 
 
-# ---------Wireframe-------------
+# Wireframe
 
 https://github.com/anthony-keogh/python-django/blob/master/static/images/django-wireframe-project.png
 
 
-# ---------User Experience-----------
+# User Experience
 
 
 • To achieve the primary goals and functions
@@ -155,7 +155,7 @@ The content be that the text or images depicting the services provided had to be
 
 
 
-# --------User Interface----------
+# User Interface
 
 • My goal as the user interface developer was to make the user's interaction as simple and efficient as possible which i think i have achive through user-centered design.
 
@@ -167,11 +167,11 @@ The content be that the text or images depicting the services provided had to be
 
 • The aesthetic quality of the website will enhance the user ui and ux of the website. Therefore increasing the likelihood of a interaction via email or sales on the website.
 
-# ------COLOR SCHEME------
+# COLOR SCHEME
 
 
 
-# --------File Management-----------
+# File Management
 
 
 • Issuetrackerproject
@@ -202,7 +202,8 @@ manage.py
 
 • Wireframe
 
-# --------Project Approach-------------
+# Project Approach
+
 • Nav Navigate through all other pages with ease
 
 • Main body
@@ -211,7 +212,7 @@ manage.py
 
 • contact
 
-# ----------Project Deployment------------
+# Project Deployment
 
 • VS Code
 
@@ -240,7 +241,7 @@ I had issues with the procfile, i created using powershell terminal and because 
 Working with config vars in heroku was very simple to use containg the postgresql key and value which was then inserting in my env.py file.
 
 
-# --------Credits and Acknowledgements--------
+# Credits and Acknowledgements
 
 
 • W3schools
