@@ -169,6 +169,13 @@ The content be that the text or images depicting the services provided had to be
 
 # COLOR SCHEME
 
+I changed the background color scheme on most pages to this blue color below
+
+from dark blue to light blue
+
+background: rgb(111,121,254);
+background: linear-gradient(0deg, rgba(111,121,254,1) 38%, rgba(81,113,254,1) 61%, rgba(2,25,176,1) 81%);
+
 
 
 # File Management
